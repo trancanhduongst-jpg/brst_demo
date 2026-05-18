@@ -1,0 +1,16 @@
+Bước 1: Chuẩn bị môi trường, khởi tạo dự án React với Vite + TypeScript và cấu hình VS Code. (Chúng ta đang ở bước này)
+Bước 2: Cài đặt các thư viện bổ trợ cần thiết (UI Framework, Tabular/Grid library, Icons).
+Bước 3: Tạo cấu trúc thư mục chuẩn và chuẩn bị Mock Data (Dữ liệu giả lập theo đúng các trường nghiệp vụ trong file thiết kế như: Mã item, Tên sách, Đơn vị sản xuất, Trạng thái...).  
+Bước 4: Xây dựng Layout tổng thể và Thanh công cụ phía trên (Header, Menu, Thanh tìm kiếm/Bộ lọc nâng cao).  
+Bước 5: Xây dựng bảng dữ liệu chính (Datagrid) tích hợp tính năng phân trang, hiển thị màu sắc theo trạng thái.  
+Bước 6: Code tính năng nâng cao: Hiển thị nhóm dữ liệu phụ (Master-Detail lồng nhau giống hình ảnh mockup số 2).
+Bước 7: Khởi chạy, kiểm tra toàn bộ ứng dụng và hướng dẫn tùy biến.
+
+
+Vite + React + TypeScript: Giúp dự án chạy cực nhẹ, gõ code có gợi ý loại dữ liệu chuẩn xác.
+
+
+Tailwind CSS: Để xử lý giao diện nhanh, tùy biến màu sắc dải băng (như phân biệt màn hình Tiến độ và Dự phòng) dễ dàng.  
+
+AG-Grid React (Community) hoặc Shadcn UI + TanStack Table: Đây là các thư viện tối ưu nhất để làm dạng bảng có tính năng gộp nhóm, lọc cột, thu gọn/mở rộng dòng cực giống với hình ảnh bạn cung cấp. 
+Ở đây mình sẽ hướng dẫn dùng Ant Design kết hợp Tailwind CSS để vừa dễ tiếp cận, vừa đầy đủ các linh kiện (Component) giống hệt thiết kế Nhật Bản này.
