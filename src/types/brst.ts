@@ -15,6 +15,7 @@ export interface BRSTItem {
   mlpStatus: 'MLP本文中にあり' | 'なし'; // Trạng thái bản quyền âm nhạc (MLP) [cite: 213]
   bppStatus: '承認' | '未承認'; // Trạng thái phê duyệt từ hệ thống BPP [cite: 211]
   isDemandForecast: boolean; // Có phải là item từ AI Dự báo nhu cầu không (BEC AI) [cite: 58, 211]
+  isFactoryConfirmed?: boolean; // 👈 THÊM DÒNG NÀY VÀO ĐỂ SỬA LỖI TYPESCRIPT
 }
 
 // Định nghĩa dữ liệu chi tiết lồng nhau (Master-Detail) cho phần mở rộng của dòng
